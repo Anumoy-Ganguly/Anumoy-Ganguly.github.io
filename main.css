@@ -19,10 +19,7 @@ div.content {
 	width:65%;
 	margin:auto;
 }
-nav {
-	width: 100%;
-	margin:auto;
-}
+
 h1#heading{
 	font-weight: normal;
 }
@@ -63,12 +60,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-ul {
-	list-style-type: none;
+nav {
 	margin-top: 10px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+}
+ul{
+	list-style-type: none;
+	width: 45%;
+	margin: auto;
 }
 li {
 	float: left;
