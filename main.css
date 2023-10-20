@@ -69,12 +69,13 @@ ul {
 }
 
 li.nav {
-	width: 10%
+	width: 10%;
 	float: left;
 	margin: auto;
 	font-size: 17px;
 }
 li.social {
+	width:10%;
 	float: right;
 	font-size:17px;
 }
