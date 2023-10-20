@@ -89,6 +89,7 @@ li a {
 }
 
 a.navbar{
+	color: white;
 	display: block;
 	padding-right: 8px;
 }
