@@ -95,7 +95,7 @@ a.navbar{
 	display: block;
 	padding-right: 8px;
 }
-a:hover{
+a.navbar:hover{
 	text-decoration: none;
 	background-color: #606ba0;
 }
