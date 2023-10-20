@@ -40,7 +40,7 @@ h1#heading{
 	padding: 0px;
 }
 footer{
-	position: absolute;
+	position: relative;
 	clear:left;
 	bottom: 20px;
 	left: 20px;
