@@ -89,7 +89,7 @@ li a {
 }
 
 a.navbar{
-	color: white;
+	color: white; !important
 	text-decoration: none;
 	display: block;
 	padding-right: 8px;
