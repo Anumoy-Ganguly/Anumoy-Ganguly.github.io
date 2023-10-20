@@ -60,24 +60,25 @@ a:hover {
 	text-decoration: underline;
 }
 
-nav {
+ul {
+	list-style-type: none;
 	margin-top: 10px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
 }
-ul{
-	list-style-type: none;
-	width: 45%;
-	margin: auto;
-}
-li {
+
+li.nav {
 	float: left;
 	margin: auto;
+	font-size: 17px;
+}
+li.social {
+	float: right;
+	font-size:17px;
 }
 
 li a {
-
 	display: block;
 	color:white;
 	text-align: center;
@@ -89,7 +90,7 @@ a.navbar{
 	display: block;
 	padding-right: 8px;
 }
-a.navbar:hover{
+a:hover{
 	text-decoration: none;
 	background-color: #606ba0;
 }
