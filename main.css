@@ -69,6 +69,7 @@ ul {
 }
 
 li.nav {
+	width: 10%
 	float: left;
 	margin: auto;
 	font-size: 17px;
