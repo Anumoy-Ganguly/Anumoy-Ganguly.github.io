@@ -5,14 +5,22 @@
 #heading{
 	font-weight: bold;
 }
-
+#degree_uni{
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	clear: right;
+}
+#course{
+	clear:left;
+}
 div.heading{
 	width: 45%;
 	margin:auto;
 	margin-top: 30px;
 	padding-top: 10px;
 	margin-bottom: 40px;
-	font-size: 30px;
+	font-size: 25px;
 	clear: left;
 }
 div.content {
@@ -23,30 +31,65 @@ div.content {
 h1#heading{
 	font-weight: normal;
 }
+
+#form1{
+	width:20%;
+}
+
 #dp {
 	width:316px;
 	height: 362px;
 	padding-right: 30px;
 	padding-bottom: 30px;
 	float: left;
-	
 	}
-.publications{
+#emblem{
+	width: 120px;
+	padding-right: 30px;
+	padding-bottom: 30px;
 	float: left;
+}
+h2.section_heading{
+	font-size: 27px;
+	margin:auto;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+#year{
+	float: right;
+	font-weight: bold;
+}
+
+#highlight{
+	font-weight: bold;
+}
+
+#section{
+	clear: left;
+	float: left;
+	width:100%;
+}
+
+.publications{
+	clear: left;
 }
 
 
 footer{
 	position: relative;
 	clear:left;
-	bottom: 20px;
+	bottom: 10px;
 	left: 20px;
+	padding-top: 40px;
 }
 p {
 	clear:right;
 	text-align: justify;
 	text-justify: inter-word;
-	font-size: 17px;
+	font-size: 16px;
 }
 a:link {
 	color: blue;
