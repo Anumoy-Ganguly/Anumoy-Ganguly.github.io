@@ -31,14 +31,11 @@ h1#heading{
 	float: left;
 	
 	}
-
-.p1 {
-	text-align: justify;
-	text-justify: inter-word;
-	width: 71%;
-	float: right;
-	padding: 0px;
+.publications{
+	float: left;
 }
+
+
 footer{
 	position: relative;
 	clear:left;
@@ -53,7 +50,8 @@ p {
 }
 a:link {
 	color: blue;
-  text-decoration: none;
+  	text-decoration: none;
+  	display: block; padding: 15px;
 }
 
 a:hover {
@@ -65,19 +63,20 @@ ul {
 	margin-top: 10px;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
 }
 
 li.nav {
-	width: 10%;
+	width: 11.427% ;
 	float: left;
 	margin: auto;
 	font-size: 17px;
+	background-color: #333;
 }
 li.social {
 	width: 10%;
 	float: right;
 	font-size:17px;
+	background-color: #333;
 }
 
 li a {
