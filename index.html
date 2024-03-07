@@ -107,8 +107,49 @@
 			</li>
 		</ol>
 
+		<h3 class="section_head" > Beyond Work</h3>
+<span id="section">
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Photo1.jpg">
+      <img src="Photo1.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Once upon a time in Paris</div>
+  </div>
+</div>
 
-		<h4 id="contact">Contact</h4>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Photo2.jpg">
+      <img src="Photo2.jpg" alt="Northern Lights" width="600" height="400" >
+    </a>
+    <div class="desc">Frosty mornings and Toasty mugs</div>
+  </div>
+</div>
+</span>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Photo3.jpg">
+      <img src="Photo3.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Diwali Party</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Photo4.jpg">
+      <img src="Photo4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">There is no elevator to success, you have to take the stairs</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+		<h4 id="contact" style="margin-top: 10vw;">Contact</h4>
 			<form action="https://formspree.io/f/mleqleej" method="POST" id="contact">
 		  		<label > Your email   :
 		    	<input type="email" name="email">
@@ -131,8 +172,40 @@
 	</div>
 </div>
 
+
+
 <footer>
 	Anumoy Ganguly 2023 &copy; Copyright
 </footer>
 
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
 </body>
+</html>
