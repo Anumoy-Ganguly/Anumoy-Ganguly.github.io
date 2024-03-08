@@ -68,10 +68,13 @@ body {
   position: sticky;
   top: 10vh;
   width: 28vw;
+  height: auto;
   margin-left: 2vw;
   margin-right: 2vw;
   border: 2vw ;
-  padding: 2vw;
+  padding-right: 1vw;
+  color: #606ba0;
+  background-color: #e8e8e8;
 }
 
 .main {
@@ -119,6 +122,9 @@ h3{
   
 }
 
+hr{
+  margin-top: 10vh ;
+}
 
 #section{
   float: left;
@@ -211,6 +217,7 @@ div.desc {
     width: 100%;
   }
 }
+
 
 .clearfix:after {
   content: "";
