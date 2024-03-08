@@ -186,7 +186,7 @@ div.desc {
   padding: 1vw;
   float: left;
   width: 45%;
-  height: 400px;
+  height: auto;
 }
 
 @media only screen and (max-width: 700px) {
