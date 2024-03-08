@@ -16,6 +16,12 @@
   color:white;
 }
 
+#highlight{
+  font-style: italic;
+  color: purple;
+
+}
+
 .nav a {
   float: left;
   display: block;
@@ -106,12 +112,14 @@ h3{
   font-weight: bold;
 }
 
-#degree_uni{
-  font-size: 17px;
+#degree{
+  font-size: 18px;
   font-weight: bold;
   float: left;
   
 }
+
+
 #section{
   float: left;
   clear: left;
@@ -119,12 +127,14 @@ h3{
 }
 
 #course{
-  clear: right;
   float: left;
+  clear: right;
+  width: 75%;
+  
 }
 
 #emblem{
-  width: 7vw;
+  width: 8vw;
   padding: 1vw;
   float: left;
 }
