@@ -22,6 +22,11 @@
 
 }
 
+.centered-element {
+  margin: 0 auto;
+  display: block;
+}
+
 .nav a {
   float: left;
   display: block;
