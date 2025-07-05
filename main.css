@@ -1,5 +1,60 @@
 /* main.css - Mobile Friendly */
 
+/* Base nav styles */
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav a.navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.nav a.icon {
+  display: none;
+  color: white;
+  font-size: 22px;
+  padding: 14px;
+}
+
+/* Responsive class */
+.nav.responsive {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav.responsive a.navbar {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+/* Show icon on small screens */
+@media screen and (max-width: 768px) {
+  .nav a.icon {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .nav a.navbar {
+    display: none;
+  }
+
+  .nav.responsive a.navbar {
+    display: block;
+  }
+}
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
