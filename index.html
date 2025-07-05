@@ -10,30 +10,21 @@
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
-<script>
-function toggleNav() {
-  var x = document.getElementById("navbar");
-  if (x.className === "nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav";
-  }
-}
-</script>
 
 <header>
-  <div class="nav" id="navbar">
-    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+  <nav class="topnav" id="navbar">
+    <a href="index.html"><i class="fa fa-home"></i> Home</a>
+    <a href="#education"><i class="fa fa-graduation-cap"></i> Education</a>
+    <a href="My-research.html" target="_blank"><i class="fa fa-gavel"></i> Research</a>
+    <a href="#publications"><i class="fa fa-hdd-o"></i> Publications</a>
+    <a href="#publications"><i class="fa fa-hdd-o"></i> Blog Posts</a>
+    <a href="#certificates"><i class="fa fa-certificate"></i> Certificates</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
       <i class="fa fa-bars"></i>
     </a>
-    <a class="navbar" href="index.html"><i class="fa fa-home"></i> &nbsp Home &nbsp</a>
-    <a class="navbar" href="#education"><i class="fa fa-graduation-cap"></i> &nbsp Education &nbsp</a>
-    <a class="navbar" href="My-research.html" target="_blank"><i class="fa fa-gavel"></i>&nbsp Research &nbsp</a>
-    <a class="navbar" href="#publications"><i class="fa fa-hdd-o"></i>&nbsp Publications &nbsp</a>
-    <a class="navbar" href="#publications"><i class="fa fa-hdd-o"></i>&nbsp Blog Posts &nbsp</a>
-    <a class="navbar" href="#certificates"><i class="fa fa-certificate"></i> &nbsp Certificates</a>
-  </div>
+  </nav>
 </header>
+
 
 
 <div class="wrap">
@@ -237,6 +228,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+function toggleNavbar() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	
 </script>
 
 </body>
