@@ -10,20 +10,31 @@
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
+<script>
+function toggleNav() {
+  var x = document.getElementById("navbar");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
 <header>
-	<div class="nav">
-		<a class="navbar" href="index.html"><i class="fa fa-home"></i> &nbsp Home &nbsp</a>
-		<a class="navbar" href="#education"><i class="fa fa-graduation-cap"></i> &nbsp Education &nbsp</a>
-		<a class="navbar" href="My-research.html" target="_blank"><i class="fa fa-gavel"></i>&nbsp Research &nbsp</a>
-		<a class="navbar" href="#publications"><i class="fa fa-hdd-o"></i>&nbsp Publications &nbsp</a>
-		<a class="navbar" href="#publications"><i class="fa fa-hdd-o"></i>&nbsp Blog Posts &nbsp</a>
-		<!--<li class="nav"><a class="navbar" href="#contact"><i class="fa fa-envelope"></i> &nbsp Contact </a></li>-->
-		<!--<a class="navbar" href="https://drive.google.com/file/d/1kr6-VI5DIe1Ze58xhWeZ82w1F6ODRkog/view?usp=sharing" target="_blank"><i class="fa fa-certificate"></i> &nbsp CV </a>-->
-		<a class ="navbar" href ="#certificates"><i class="fa fa-certificate"></i> &nbsp Certificates</a>
-		<!--<a class= "navbar" href="https://www.linkedin.com/in/anumoy-ganguly-0bb91616a/" target="_blank"> <i class="fa fa-linkedin-square" target="_blank"></i></a>
-		<a class ="navbar" href="https://www.researchgate.net/profile/Anumoy_Ganguly" target="_blank"> ResearchGate &nbsp</a>-->
-	</div>
+  <div class="nav" id="navbar">
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a class="navbar" href="index.html"><i class="fa fa-home"></i> &nbsp Home &nbsp</a>
+    <a class="navbar" href="#education"><i class="fa fa-graduation-cap"></i> &nbsp Education &nbsp</a>
+    <a class="navbar" href="My-research.html" target="_blank"><i class="fa fa-gavel"></i>&nbsp Research &nbsp</a>
+    <a class="navbar" href="#publications"><i class="fa fa-hdd-o"></i>&nbsp Publications &nbsp</a>
+    <a class="navbar" href="#publications"><i class="fa fa-hdd-o"></i>&nbsp Blog Posts &nbsp</a>
+    <a class="navbar" href="#certificates"><i class="fa fa-certificate"></i> &nbsp Certificates</a>
+  </div>
 </header>
+
 
 <div class="wrap">
 	<div class="sticky1">
